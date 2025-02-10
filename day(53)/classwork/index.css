@@ -1,0 +1,35 @@
+div{
+    height:200px;
+    width:200px;
+    background-color: red ;
+    border:2px solid black;
+    margin:3px;
+}
+#d2{
+    position: relative;
+    left: 100px;
+}
+#d3{
+    position: relative;
+    left: 200px;
+}
+#d4{
+    position: relative;
+    left: 300px;
+}
+#d5{
+    position: relative;
+    left: 400px;
+}
+#d6{
+    position: relative;
+    left: 300px;
+}
+#d7{
+    position: relative;
+    left: 200px;
+}
+#d8{
+    position: relative;
+    left: 100px;
+}
