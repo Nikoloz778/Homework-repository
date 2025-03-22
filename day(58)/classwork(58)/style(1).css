@@ -1,0 +1,17 @@
+div{
+    height:400px;
+    width: 400px;
+    background-color: red;
+    animation-name:MN;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes MN{
+    from{
+        background-color:red
+    }
+    to{
+        background-color: blue;
+    }
+}

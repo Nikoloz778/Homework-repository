@@ -1,0 +1,21 @@
+#my-div{
+    height:300px;
+    width:300px;
+    background-color:brown;
+    border:3px solid black;
+    border-radius:50px;
+    position:relative;
+    box-shadow: 5px;
+    animation-name:myAnimation;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes myAnimation{
+    from{
+        left:0%
+    }
+    to{
+        left:100%
+    }
+}

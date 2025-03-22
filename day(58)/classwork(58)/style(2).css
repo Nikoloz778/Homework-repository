@@ -1,0 +1,37 @@
+
+#parent{
+    height:2000px;
+    width:2000px;
+    background-color: cadetblue;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    font-size:30px;
+
+    animation-duration: 1s;
+    animation-name: Animation2;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    
+}
+@keyframes Animation2{
+    from{
+        transform: rotate(0deg);
+        color:red 
+    }
+    to{
+        transform: rotate(360deg);
+        color:black;
+        border-radius:150px
+    }
+}

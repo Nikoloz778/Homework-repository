@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color:blue;
+    border:2px solid black;
+    transition: 1s;
+    color:white
+}
+div:hover{
+    transform:rotate(1480deg) scale(4);
+    border-radius:50%;
+}
+div:active{
+    transform:scale(2) rotate(-1480deg);
+    background-color: blueviolet;
+    border-radius:25%
+}
