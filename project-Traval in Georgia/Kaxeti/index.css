@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(249, 213, 165);
+}
+header{
+    height:100px;
+    width:100%;
+   background-image: url(/Kaxeti/mainbackground.png);
+   background-size: cover;
+   background-position: center;
+
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+
+    display:grid;
+    align-items:center;
+    position:sticky;
+    top:0
+    
+
+}
+#alaverd-p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 140px;
+}
+#Alaverdi{
+    margin-top:10px
+
+}
+h1{
+    color:black;
+    font-size:45px
+}
+img{
+    height: 450px;
+    width:auto;
+    border-radius:80px;
+    transition:0.2s
+}
+#alaverd-parent{
+    display:flex;
+    background-color: rgb(249, 213, 165); 
+    transition: 0,2s;
+    margin:20px;
+}
+#alaverd-parent:hover{
+    box-shadow: 0px 7px 30px 30px black;
+    border-radius:80px;
+    img{
+        height:500px;
+        border:5px solid black;
+    }
+}
+#vino-parent{
+    display:flex;
+    background-color: rgb(249, 213, 165); 
+    transition:0,2s
+}
+#vino-parent{
+    box-shadow: 0px 7px 30px 30px black;
+    border-radius:80px;
+    img{
+        height:500px;
+        border:5px solid black;
+    }
+}
+#vino-p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 140px;
+}
+.invitation{
+    font-size:25px
+}
+button{
+    height:50px;
+    width: 100px;
+    padding:5px;
+    background-color:rgb(36, 36, 105);
+    color:antiquewhite;
+    border:2px solid black;
+    font-weight: bolder;
+    margin-top:5px;
+}
+button:hover{
+    transform: scale(1.1) ;
+    transition-duration: 30ms ;
+}
