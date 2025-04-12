@@ -10,7 +10,7 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
-    
+    background-color: grey;
 }
 
 /* divs  */
@@ -41,7 +41,6 @@ body{
     width:33.3%;
     background-color:hsl(179, 100%, 13%);
     border-radius:0px 8px 8px 0px;
-    
 }
 
 /* buttons */
@@ -53,10 +52,6 @@ button{
     border-radius:30px;
     border:none;
     padding:10px;
-    
-    position:relative;
-    top:150px;
-    right:125px
 }
 
 button:active{
@@ -65,17 +60,17 @@ button:active{
 }
 #first-button{
     position:relative;
-    top:131px;
+    top:191px;
     right:60px
 }
 #second-button{
     position:relative;
-    top:131px;
+    top:191px;
     right:60px
 }
 #third-button{
     position:relative;
-    top:131px;
+    top:191px;
     right:60px
 }
 
@@ -83,14 +78,17 @@ button:active{
 
 #sedan-icon{
     position:relative;
+    top:45px;
     right:90px
 }
 #suvs-icon{
     position:relative;
+    top:45px;
     right:90px;
 }
 #luxury-icon{
     position:relative;
+    top:45px;
     right:90px
 }
 
@@ -98,18 +96,18 @@ button:active{
 
 #sedan-h1{
     position: relative;
-    top:15px;
-    right:73px
+    top:85px;
+    right:58px
 }
 #suvs-h1{
     position: relative;
-    top:15px;
-    right:84px
+    top:85px;
+    right:83px
 }
 #luxury-h1{
     position:relative;
-    top:13px;
-    right:70px;
+    top:85px;
+    right:53px;
 }
 
 /* paragraphs */
@@ -119,17 +117,17 @@ p{
 
 #sedan-p{
     position:relative;
-    top:50px;
+    top:120px;
     left:29px 
 }
 #suvs-p{
     position:relative;
-    top:50px;
+    top:120px;
     left:27px 
 }
 #luxury-p{
     position:relative;
-    top:50px;
+    top:120px;
     left:31px 
 
 }
