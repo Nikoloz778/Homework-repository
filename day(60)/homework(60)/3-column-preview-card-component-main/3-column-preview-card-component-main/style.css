@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* divs  */
+
+#parent{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:450px;
+    width:65%;
+    color:white;
+}
+.sedans{
+    flex-direction: column;
+    height:100%;
+    width:33.3%;
+    background-color:hsl(31, 77%, 52%);
+    border-radius:8px 0px 0px 8px;
+}
+
+.suvs{
+    height:100%;
+    width:33.3%;
+    background-color:hsl(184, 100%, 22%);
+}
+.luxury{
+    height:100%;
+    width:33.3%;
+    background-color:hsl(179, 100%, 13%);
+    border-radius:0px 8px 8px 0px;
+    
+}
+
+/* buttons */
+
+button{
+    height:43px;
+    width:120px;
+    background-color:white;
+    border-radius:30px;
+    border:none;
+    padding:10px;
+    
+    position:relative;
+    top:150px;
+    right:125px
+}
+
+button:active{
+    background-color:transparent ;
+    border:2px solid white;
+}
+#first-button{
+    position:relative;
+    top:131px;
+    right:60px
+}
+#second-button{
+    position:relative;
+    top:131px;
+    right:60px
+}
+#third-button{
+    position:relative;
+    top:131px;
+    right:60px
+}
+
+/* icons */
+
+#sedan-icon{
+    position:relative;
+    right:90px
+}
+#suvs-icon{
+    position:relative;
+    right:90px;
+}
+#luxury-icon{
+    position:relative;
+    right:90px
+}
+
+/* Headings */
+
+#sedan-h1{
+    position: relative;
+    top:15px;
+    right:73px
+}
+#suvs-h1{
+    position: relative;
+    top:15px;
+    right:84px
+}
+#luxury-h1{
+    position:relative;
+    top:13px;
+    right:70px;
+}
+
+/* paragraphs */
+p{
+    text-align: left;
+}
+
+#sedan-p{
+    position:relative;
+    top:50px;
+    left:29px 
+}
+#suvs-p{
+    position:relative;
+    top:50px;
+    left:27px 
+}
+#luxury-p{
+    position:relative;
+    top:50px;
+    left:31px 
+
+}
