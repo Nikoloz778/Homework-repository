@@ -57,23 +57,41 @@ button{
 button:active{
     background-color:transparent ;
     border:2px solid white;
+    color:white;
 }
 #first-button{
     position:relative;
     top:191px;
-    right:60px
+    right:60px;
+    color:hsl(31, 77%, 52%)
+}
+#first-button:active{
+    background-color:transparent ;
+    border:2px solid white;
+    color:white;
 }
 #second-button{
     position:relative;
     top:191px;
-    right:60px
+    right:60px;
+    color:hsl(184, 100%, 22%)
+}
+#second-button:active{
+    background-color:transparent ;
+    border:2px solid white;
+    color:white;
 }
 #third-button{
     position:relative;
     top:191px;
-    right:60px
+    right:60px;
+    color:hsl(179, 100%, 13%);
 }
-
+#third-button:active{
+    background-color:transparent ;
+    border:2px solid white;
+    color:white;
+}
 /* icons */
 
 #sedan-icon{
