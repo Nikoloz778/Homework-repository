@@ -1,0 +1,14 @@
+
+img{
+    height:500px;
+    width:auto;
+}
+button{
+    margin:30px;
+    background-color:yellow;
+    padding:10px
+}
+button:hover{
+    background-color:black;
+    color:yellow;
+} 
