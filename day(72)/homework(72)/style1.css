@@ -1,0 +1,34 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    height:1212px;
+    width:1216px;
+    border: 2px solid black;
+    margin:200px;
+    gap:5px;
+    display:grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 400px 400px 400px;
+}
+.child{
+    height:400px;
+    width:300px;
+    background-color:brown;
+    border:2px solid black;
+}
+.child5{
+    background-color:blue;
+}
+.child6{
+    background-color:blueviolet;
+}
+.child7{
+    background-color: yellow;
+}
+.child8{
+    background-color:burlywood;
+}

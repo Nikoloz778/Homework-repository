@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Teacher{ 
+    height: 404px;
+    width: 614px;
+    border: 2px solid black;
+    gap: 5px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 400px;
+    
+}
+
+.child{
+    background-color: khaki;
+}
