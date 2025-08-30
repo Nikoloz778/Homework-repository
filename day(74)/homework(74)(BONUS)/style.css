@@ -1,0 +1,19 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.parent{
+    height:400px;
+    width:500px;
+    display:flex; 
+    justify-content:center;
+    align-items: center;
+    background-color:white;
+    border:5px solid black;
+
+}
+.child{
+    background-color:red;
+
+}
