@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Yellowtail&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    font-family: karla;
+}
+.parent{
+    height:495px;
+    width:650px;
+    border-radius:10px ;
+    box-shadow:0px 0px 4px black ;
+    display:grid;
+    grid-template-columns: 325px 325px;
+    grid-template-rows: 220px 275px;
+
+}
+.first{
+    grid-column:1/3;
+    grid-row:1/1;
+    border-radius:10px 10px 0px 0px; 
+    background-color:white;
+}
+.first-h3{
+    color:hsl(179, 62%, 43%);
+    font-size:30px;
+    font-weight:700px;
+    position: relative;
+    left:35px;
+    top:40px;
+}
+.first-p1{
+    color:hsl(71, 73%, 54%);
+    font-size:20px;
+    font-weight:bold;
+    position:relative;
+    top:47px;
+    left:35px;
+}
+.first-p2{
+    color:hsl(218, 22%, 67%);
+    position: relative;
+    top:47px;
+    left:35px;
+}
+.second{
+    grid-column:1/2;
+    grid-row:2/2;
+    border-radius:0px 0px 0px 10px;
+    background-color:hsl(179, 62%, 43%);
+    color:white;
+}
+.second-h3{
+    position:relative;
+    left:35px;
+    top:40px
+}
+.second-p1{
+    position:relative;
+    left:35px;
+    top:60px;
+    font-size:40px;
+}
+.second-p2{
+    position:relative;
+    left:125px;
+    top:26px;
+    color:hsl(204, 43%, 93%);
+    opacity:40%;
+}
+.second-p3{
+    position:relative;
+    left:35px;
+    top:50px;
+}
+.second-button{
+    position:relative;
+    left:35px;
+    top:85px;
+    height:50px;
+    width:245px;
+    background-color:hsl(71, 73%, 54%);
+    color:white;
+    border:none;
+    border-radius:5px;
+    box-shadow:0px 0px 1px 0px black ;
+    font-size:16px;
+    
+}
+
+.third{
+    grid-column:2/3;
+    grid-row: 2/2;
+    border-radius:0px 0px 10px 0px;
+    background-color:hsla(179, 70%, 46%, 0.908);
+    color:white;
+}
+.third-h3{
+    position:relative;
+    left:35px;
+    top:40px
+}
+.third-p1{
+    position: relative;
+    top:60px;
+    left:35px;
+    opacity:60%;
+}
+footer{
+    margin-top:20px;
+}
