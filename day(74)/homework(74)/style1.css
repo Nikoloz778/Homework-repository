@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+}
+.parent{
+    height:900px;
+    width:900px;
+    background-color:black;
+    display:grid;
+    justify-items: center;
+    align-items:center;
+    justify-content:center;
+    align-content:center;
+    grid-template-columns:300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+}
+.child{
+    height:250px;
+    width:250px;
+    background-color:cadetblue
+}

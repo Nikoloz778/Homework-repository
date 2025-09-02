@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.parent{
+    height:800px;
+    width:1200px;
+    display:grid;
+    grid-template-rows:100px 100px 100px 100px;
+    grid-template-columns:200px 200px 200px 200px 200px 200px;
+    gap:5px;
+}
+.child{
+    background-color:red;
+}
+.first{
+    background-color:red;
+    grid-row:1/2;
+    grid-column:1/span 3
+}
+.second{
+    background-color:blue;
+    grid-row:1/2;
+    grid-column:5/span 2
+}
+.third{
+    background-color:brown;
+    grid-column:3/span 3;
+    grid-row:3/span 2
+}

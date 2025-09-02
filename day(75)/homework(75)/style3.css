@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.parent{
+    height:500px;
+    width:500px;
+    display:grid;
+    grid-template-columns:100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+}
+.first{
+    background-color:red;
+    grid-row:1/span 2;
+    grid-column:1/ span 5
+}
+.second{
+    background-color:chocolate;
+    grid-row:3/span 3;
+    grid-column:3/span 3
+}
+.third{
+    background-color: yellow;
+    grid-row:4/span 2;
+    grid-column:1/span 2;
+}

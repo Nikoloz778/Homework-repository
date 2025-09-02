@@ -1,0 +1,23 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+.parent{
+    height:400px;
+    width:600px;
+    display:grid;
+    grid-template-columns:100px 100px 100px 100px 100px 100px;
+    grid-template-rows:100px 100px 100px 100px;
+}
+.child{
+    background-color:red;
+    grid-row:2/4;
+    grid-column:1/span 5
+}

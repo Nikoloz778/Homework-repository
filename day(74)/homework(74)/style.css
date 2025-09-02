@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh
+}
+.parent{
+    height:440px;
+    width:440px;
+    justify-content: center;
+    align-content:center;
+    justify-items:center;
+    align-items:center;
+    display:grid;
+    grid-template-columns:100px 100px 100px 100px;
+    grid-template-rows:100px 100px 100px 100px;
+    gap:10px;
+    background-color:black;
+}
+.child{
+    height:100px;
+    width:100px;
+
+    background-color:brown;
+}
