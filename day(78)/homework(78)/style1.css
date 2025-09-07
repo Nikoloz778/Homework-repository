@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.parent{
+    height:900px;
+    width:900px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(100px, 1fr));
+    gap:10px;
+}
+.child{
+    background-color:yellow;
+    border-radius:40px;
+}
