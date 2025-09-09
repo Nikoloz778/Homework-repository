@@ -1,0 +1,28 @@
+*{
+     margin:0px; 
+     padding:0px;
+     box-sizing:border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+img{
+    height:480px;
+    width:auto;
+    margin:10px;
+    border-radius:20px;
+} 
+@media(max-width:1000px){
+    body{
+        flex-direction:column;
+    }
+}
+@media(max-width:740px){
+    img{
+        height:430px;
+        width:auto;
+    }
+}
