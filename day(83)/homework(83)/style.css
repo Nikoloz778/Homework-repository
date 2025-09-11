@@ -5,11 +5,11 @@
     box-sizing:border-box;
 }
 body{
-    background-color: antiquewhite;
+    background-color:black;
     font-family:Roboto
 }
 nav{
-    width:100%;
+    width:100%; 
     height:70px;
     display:flex;
     align-items:center;
@@ -21,32 +21,123 @@ ul{
     align-items:center;
     justify-content:center;
     list-style-type: none;
-    gap:30px;
+    gap:50px;
     font-size:20px;
-    font-weight:bold
+    font-weight:bold;
+    position:relative;
+    left:100px;
 }
 .thalby{
     height:30px;
     width:auto;
     position:relative;
-    left:-8%;
-    margin:5px;
+    left:70px;
 }
 .search{
     position:relative;
-    left:13.5%;
+    left:270px;
     margin:5px;
 }
 .insta{
     position:relative;
-    left:26.6%;
+    left:537px;
     margin:5px;
 }
-@media(max-width:1600px){
-    ul{
-        gap:20px;
+/* section 1*/
+.love-humanity{
+    background-color:rgb(248, 236, 236);
+    height:915px;
+    width:100%;
+    display:flex;
+}
+.love-humanity-div1{
+    width:50%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.love-humanity-h1{
+    font-size:70px;
+    margin-left:15px;
+}
+.love-humanity-p1{
+    font-size:25px;
+    font-weight:500;
+    margin-right:80px;
+    margin-top:50px;
+}
+.love-humanity-button{
+    background-color: black;
+    color:rgb(247, 240, 232);
+    border-radius:40px;
+    height:50px;
+    width:170px;
+    padding:10px;
+    font-size:23px;
+    margin-top:30px;
+    margin-right:382px;
 
-    }
+}
+.love-humanity-img{
+    height:700px;
+    width:auto;
+    margin-top:100px;
+}
+/* section 2*/
+.sec2{
+    height:1300px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    background-color:white;
 
+}
+/* section 2 div 1*/
+.sec2-div1{
+    position:relative;
+    top:-15px;
+}
+.sec2-div1-h3{
+    font-size:51px;
+    position: relative;
+    bottom:160px;
 
+}
+.sec2-div1-p1{
+    font-size:30px;
+    position:relative;
+    bottom:140px;
+    left:40px;
+}
+.sec2-div1-p2{
+    font-size:30px;
+    position:relative;
+    left:220px;
+    bottom:70px;
+}
+/* section 2 div 2*/
+.sec2-div2{
+    height:400px;
+    width:50%;
+    position:relative;
+    top:100px;
+    right:250px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    gap:100px;
+
+}
+.sec2-h3{
+    font-size:51px;
+    position:relative;
+    top:35px;
+}
+.sec2-div2-imgs{
+    height:600px;
+    width:auto;
 }
