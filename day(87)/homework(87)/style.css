@@ -1,110 +1,146 @@
-*{
-    margin:0px;
-    padding:0px;
-    box-sizing:border-box;
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Yellowtail&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-/* header */
-header{
-    height:90px;
-    width:100%;
-    display:flex;
-    align-items:center;
-    justify-content:space-around;
+body {
+    font-family: inter;
+    width: 100%;
+    height: 100vh;
+}
+main {
+    width: 100%;
+}
 
+/* header */
+
+header {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.header-div{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin-right:300px
+.header-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.header-photo{
-    height:21px;
+.header-photo {
+    height: 21px;
 }
-.nav{
-    height:90px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+.nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-ul{
-    height:90px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+ul {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
-    gap:20px;
+    gap: 20px;
 }
-li{
-    opacity:80%;
+li {
+    opacity: 80%;
 }
-.home{
-    margin-right:30px
+.home {
+    margin-right: 30px
 }
-button{
-    border-radius:3px;
-    background-color:rgba(76, 175, 79, 1);
-    color:white;
-    border:none;
+button {
+    border-radius: 3px;
+    background-color: rgba(76, 175, 79, 1);
+    color: white;
+    border: none;
 }
-.header-button{
-    height:50%;
-    width:150px;
-    background-color:rgba(76, 175, 79, 1);
-    border:none;
-    border-radius:3px;
+.header-button {
+    height: 50%;
+    width: 150px;
+    background-color: rgba(76, 175, 79, 1);
+    border: none;
+    border-radius: 3px;
 }
+
 /* main  
 
 section 1 */
-.section1{
+.section1 {
     background-color: rgba(245, 247, 250, 1);
     width: 100%;
-    height:600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 100px 0px;
+    gap: 50px;
+
 }
-.section1-div{
-    width:100%;
-    height:100%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+.section1-div-div {
+    height: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    max-width: 630px;
+    padding:0px 0px 0px 100px;
 }
-.section1-div-div{
-    width:50%;
-    height:100%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
+.section1-div-div-1h2 {
+    opacity: 70%;
+    font-size: 50px;
 }
-.section1-div-div-1h2{
-    opacity:70%;
-    font-size:70px;
-    position:relative;
-    right:90px;
+.section1-div-div-2h2 {
+    font-size: 50px;
+    color: rgba(76, 175, 79, 1);
+
 }
-.section1-div-div-2h2{
-    font-size:70px;
-    color:rgba(76, 175, 79, 1);
-    position:relative;
-    right:210px;
+.secion1-div-div-p {
+    opacity: 60%;
+    margin-top: 20px;
 }
-.secion1-div-div-p{
-    opacity:60%;
-    position:relative;
-    top:20px;
-    right:173px
+.secion1-div-div-button {
+    height: 40px;
+    width: 100px;
+    font-size: small;
+    margin-top: 40px;
 }
-.secion1-div-div-button{
-    height:40px;
-    width:100px;
-    font-size:small;
-    position:relative;
-    top:50px;
-    right:345px;
+.section1-img {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
 }
-.section1-div-img{
-    height:400px;
-    width:auto;
-    
+.section1-div-img {
+    width: 450px;
+    padding:0px 100px 0px 0px
+}
+.burger {
+    display: none;
+}
+@media(max-width:850px) {
+    nav {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+    .section1-div-div-1h2 {
+        font-size: 45px
+    }
+    .section1-div-div-2h2 {
+        font-size: 45px;
+    }
+    header{
+        justify-content:space-between;
+        padding:0px 30px;
+    }
+    .section1 {
+        padding: 40px 20px;
+    }
+    .section1-div-img{
+        width:300px;
+    }
 }
