@@ -358,3 +358,15 @@ section 2 div 5 */
         padding-left:160px
     }
 }
+@media( max-width:900px){
+    .header-logodiv-logo{
+        padding-left:140px
+    }
+    .section1-div1-div1-p{
+        font-size:26px;
+    }
+    .section1-div1-div3{
+        padding-left:145px;
+    }
+
+}
