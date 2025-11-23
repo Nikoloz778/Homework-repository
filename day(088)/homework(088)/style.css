@@ -291,6 +291,16 @@ section 2 div 5 */
     font-family: Sansation;
 
 }
+.section3-div1-p1{
+    padding:35px 0px 0px 0px;
+    opacity:80%;
+    font-size:larger
+}
+.section3-div1-p2{
+    padding:0px 0px 35px 0px;
+    opacity:80%;
+    font-size:larger;
+}
 .section3-div2{
     height:fit-content;
     display:grid;
@@ -346,6 +356,86 @@ section 2 div 5 */
 .section3-div2-div2-img{
     height:500px;
     padding-right:70px
+}
+.secttion3-div3-div1-img{
+    height:500px;
+}
+.section3-div3-div2-h2{
+    font-size:30px;
+    font-weight:500;
+    font-family: Sansation;
+    opacity:80%;
+}
+.section3-div3-div2-p1{
+    padding:50px 0px 0px 0px;
+    opacity:80%;
+}
+.section3-div3-div2-p2{
+    padding:0px 0px 20px 0px;
+    opacity:80%;
+}
+.section3-div3-div2-div{
+    height:fit-content;
+    display:grid;
+    grid-template-columns:50px 1fr;
+    grid-template-rows:50px 50px 50px;
+    justify-items: left;
+    align-items:center;
+    padding:30px 0px 0px 0px;
+}
+.section3-div3-div3-h2{
+    opacity:80%;
+    font-weight:500;
+}
+.section3-div3-div3-p1{
+    padding:50px 0px 0px 0px;
+}
+.section3-div3-div3-p2{
+    padding:0px 0px 20px 0px;
+}
+.section3-div3-div3-div{
+    height:fit-content;
+    display:grid;
+    grid-template-columns:50px 1fr;
+    grid-template-rows:50px 50px 50px 50px;
+    justify-items: left;
+    align-items:center;
+    padding:30px 0px 0px 0px;
+}
+.section3-div3-div4{
+    height:550px;
+}
+.section3-div3-div5-img{
+    height:550px;
+}
+.section3-div3-div6-div{
+    height:fit-content;
+    display:grid;
+    grid-template-columns:50px 1fr;
+    grid-template-rows:50px 50px;
+    justify-items: left;
+    align-items:center;
+    padding:30px 0px 20px 0px;
+}
+.grid-p{
+    opacity:80%
+}
+/* section 4*/
+.section4{
+    background-color:rgba(48, 50, 49, 1);
+    font-family:Sansation;
+}
+.section4-div1{
+    height:70px;
+
+    color:rgba(255, 255, 255, 1);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.section4-div1-h2{
+    font-size:30px;
+    font-weight:300;
 }
 @media(max-width:1310px){
     .section1-div1-h2-1{
