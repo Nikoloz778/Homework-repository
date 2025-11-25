@@ -437,6 +437,38 @@ section 2 div 5 */
     font-size:30px;
     font-weight:300;
 }
+.section4-div2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:80px 0px 0px 0px;
+}
+.big-car{
+    height:400px;
+}
+.section4-div3{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+    padding:60px 0px 50px 0px;
+}
+.section4-div3-divs{
+    height:100px;
+    border-radius:10px;
+}
+.section5{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.section5-div2-img{
+    height:700px;
+    padding:0px 0px 0px 200px;
+}
+.section5-div2{
+    overflow: hidden;
+}
 @media(max-width:1310px){
     .section1-div1-h2-1{
         font-size:60px;
